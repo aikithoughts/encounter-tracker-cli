@@ -1,0 +1,30 @@
+{
+  "name": "Test Encounter",
+  "combatants": [
+    {
+      "name": "Test Hero",
+      "max_hp": 50,
+      "current_hp": 35,
+      "initiative": 18,
+      "notes": ["Blessed by cleric"],
+      "combatant_type": "player",
+      "tie_breaker": 0
+    },
+    {
+      "name": "Goblin Scout",
+      "max_hp": 15,
+      "current_hp": 15,
+      "initiative": 12,
+      "notes": [],
+      "combatant_type": "monster",
+      "tie_breaker": 1
+    }
+  ],
+  "current_turn": 0,
+  "round_number": 1,
+  "metadata": {
+    "created": "2025-01-07T10:30:00",
+    "last_modified": "2025-01-07T11:15:00",
+    "version": "1.0"
+  }
+}

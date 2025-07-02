@@ -1,0 +1,133 @@
+{
+  "name": "Tavern Brawl",
+  "combatants": [
+    {
+      "name": "Thorin Ironforge",
+      "max_hp": 45,
+      "current_hp": 41,
+      "initiative": 16,
+      "notes": ["Unarmed strikes", "Tavern chair as improvised weapon"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Elara Moonwhisper",
+      "max_hp": 38,
+      "current_hp": 35,
+      "initiative": 18,
+      "notes": ["Non-lethal damage only"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Gareth Stormwind",
+      "max_hp": 52,
+      "current_hp": 48,
+      "initiative": 14,
+      "notes": ["Grappling drunk patron"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Luna Shadowbane",
+      "max_hp": 29,
+      "current_hp": 29,
+      "initiative": 20,
+      "notes": ["Trying to calm situation"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Innkeeper Willem",
+      "max_hp": 25,
+      "current_hp": 22,
+      "initiative": 12,
+      "notes": ["Protecting his tavern", "Rolling pin weapon"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Drunk Patron 1",
+      "max_hp": 15,
+      "current_hp": 8,
+      "initiative": 10,
+      "notes": ["Heavily intoxicated", "Disadvantage on attacks"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Drunk Patron 2",
+      "max_hp": 15,
+      "current_hp": 15,
+      "initiative": 8,
+      "notes": ["Throwing mugs", "Angry about spilled ale"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Barkeep's Daughter",
+      "max_hp": 12,
+      "current_hp": 12,
+      "initiative": 15,
+      "notes": ["Hiding behind bar", "Throwing bottles"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Merchant Aldric",
+      "max_hp": 18,
+      "current_hp": 14,
+      "initiative": 11,
+      "notes": ["Trying to protect his goods"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "City Watch Guard",
+      "max_hp": 32,
+      "current_hp": 32,
+      "initiative": 17,
+      "notes": ["Just arrived", "Trying to restore order"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Tavern Wench",
+      "max_hp": 10,
+      "current_hp": 7,
+      "initiative": 13,
+      "notes": ["Dodging flying furniture"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Local Tough 1",
+      "max_hp": 22,
+      "current_hp": 18,
+      "initiative": 9,
+      "notes": ["Started the fight", "Brass knuckles"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Local Tough 2",
+      "max_hp": 22,
+      "current_hp": 0,
+      "initiative": 7,
+      "notes": ["Unconscious", "Face-down in ale puddle"],
+      "combatant_type": "npc"
+    },
+    {
+      "name": "Orc Mercenary",
+      "max_hp": 45,
+      "current_hp": 38,
+      "initiative": 19,
+      "notes": ["Enjoying the chaos", "Using fists only"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Halfling Rogue",
+      "max_hp": 24,
+      "current_hp": 24,
+      "initiative": 21,
+      "notes": ["Pickpocketing during chaos", "Sneak Attack available"],
+      "combatant_type": "monster"
+    }
+  ],
+  "current_turn": 5,
+  "round_number": 2,
+  "metadata": {
+    "created": "2025-01-07T19:00:00Z",
+    "last_modified": "2025-01-07T19:20:00Z",
+    "version": "1.0",
+    "description": "A chaotic tavern brawl with mostly non-lethal combat and improvised weapons"
+  }
+}

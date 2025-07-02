@@ -1,0 +1,69 @@
+{
+  "name": "Goblin Ambush",
+  "combatants": [
+    {
+      "name": "Thorin Ironforge",
+      "max_hp": 45,
+      "current_hp": 32,
+      "initiative": 18,
+      "notes": ["Blessed by cleric (+1 AC)", "Has inspiration"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Elara Moonwhisper",
+      "max_hp": 38,
+      "current_hp": 38,
+      "initiative": 16,
+      "notes": ["Concentrating on Hunter's Mark"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Gareth Stormwind",
+      "max_hp": 52,
+      "current_hp": 40,
+      "initiative": 14,
+      "notes": [],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Luna Shadowbane",
+      "max_hp": 29,
+      "current_hp": 29,
+      "initiative": 12,
+      "notes": ["Sneak Attack ready"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Goblin Scout 1",
+      "max_hp": 7,
+      "current_hp": 7,
+      "initiative": 15,
+      "notes": [],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Goblin Scout 2",
+      "max_hp": 7,
+      "current_hp": 0,
+      "initiative": 13,
+      "notes": ["Unconscious"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Hobgoblin Captain",
+      "max_hp": 39,
+      "current_hp": 25,
+      "initiative": 17,
+      "notes": ["Leadership (recharge 5-6)"],
+      "combatant_type": "monster"
+    }
+  ],
+  "current_turn": 2,
+  "round_number": 3,
+  "metadata": {
+    "created": "2025-01-07T12:00:00Z",
+    "last_modified": "2025-01-07T12:15:00Z",
+    "version": "1.0",
+    "description": "A classic low-level encounter with goblins ambushing the party on a forest road"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "vecna-cultists",
+  "combatants": [
+    {
+      "name": "Bilwin",
+      "max_hp": 52,
+      "current_hp": 52,
+      "initiative": 16,
+      "notes": [],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    }
+  ],
+  "current_turn": 0,
+  "round_number": 1,
+  "metadata": {
+    "created": "2025-07-01T15:11:39.431960",
+    "last_modified": "2025-07-01T15:11:39.431960",
+    "version": "1.0"
+  }
+}

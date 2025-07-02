@@ -1,0 +1,101 @@
+{
+  "name": "Ancient Dragon's Lair",
+  "combatants": [
+    {
+      "name": "Ancient Red Dragon",
+      "max_hp": 546,
+      "current_hp": 423,
+      "initiative": 24,
+      "notes": ["Legendary Actions (3 per turn)", "Lair Actions", "Frightful Presence", "Fire Immunity"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Dain Battlehammer",
+      "max_hp": 78,
+      "current_hp": 45,
+      "initiative": 19,
+      "notes": ["Action Surge used", "Second Wind available"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Seraphina Lightbringer",
+      "max_hp": 65,
+      "current_hp": 65,
+      "initiative": 18,
+      "notes": ["Concentrating on Bless", "Channel Divinity available"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Ragnar Bloodaxe",
+      "max_hp": 85,
+      "current_hp": 62,
+      "initiative": 17,
+      "notes": ["Raging", "Reckless Attack"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Aria Swiftarrow",
+      "max_hp": 58,
+      "current_hp": 31,
+      "initiative": 22,
+      "notes": ["Hunter's Mark on dragon", "Sharpshooter"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Thaddeus Goldbeard",
+      "max_hp": 49,
+      "current_hp": 49,
+      "initiative": 15,
+      "notes": ["Counterspell ready", "Shield spell prepared"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Lyra Starweaver",
+      "max_hp": 42,
+      "current_hp": 28,
+      "initiative": 20,
+      "notes": ["Wild Shape available", "Healing Word prepared"],
+      "combatant_type": "player"
+    },
+    {
+      "name": "Kobold Sorcerer 1",
+      "max_hp": 27,
+      "current_hp": 27,
+      "initiative": 14,
+      "notes": ["Pack Tactics", "Sorcery Points: 3"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Kobold Sorcerer 2",
+      "max_hp": 27,
+      "current_hp": 12,
+      "initiative": 13,
+      "notes": ["Pack Tactics", "Sorcery Points: 1"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Fire Elemental 1",
+      "max_hp": 102,
+      "current_hp": 78,
+      "initiative": 16,
+      "notes": ["Fire Form", "Illumination"],
+      "combatant_type": "monster"
+    },
+    {
+      "name": "Fire Elemental 2",
+      "max_hp": 102,
+      "current_hp": 102,
+      "initiative": 11,
+      "notes": ["Fire Form", "Illumination"],
+      "combatant_type": "monster"
+    }
+  ],
+  "current_turn": 0,
+  "round_number": 4,
+  "metadata": {
+    "created": "2025-01-07T14:00:00Z",
+    "last_modified": "2025-01-07T15:30:00Z",
+    "version": "1.0",
+    "description": "Epic high-level encounter in an ancient red dragon's volcanic lair"
+  }
+}

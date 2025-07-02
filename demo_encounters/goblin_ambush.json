@@ -1,0 +1,50 @@
+{
+  "name": "Goblin Ambush",
+  "combatants": [
+    {
+      "name": "Legolas",
+      "max_hp": 35,
+      "current_hp": 35,
+      "initiative": 18,
+      "notes": [],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Thorin",
+      "max_hp": 45,
+      "current_hp": 37,
+      "initiative": 16,
+      "notes": [
+        "Wounded by Goblin Chief"
+      ],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Goblin Chief",
+      "max_hp": 30,
+      "current_hp": 30,
+      "initiative": 15,
+      "notes": [],
+      "combatant_type": "monster",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Gimli",
+      "max_hp": 50,
+      "current_hp": 50,
+      "initiative": 12,
+      "notes": [],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    }
+  ],
+  "current_turn": 3,
+  "round_number": 2,
+  "metadata": {
+    "created": "2025-07-01T10:07:02.079513",
+    "last_modified": "2025-07-01T10:07:02.079513",
+    "version": "1.0"
+  }
+}

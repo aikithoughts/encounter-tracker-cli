@@ -1,0 +1,62 @@
+{
+  "name": "Goblin Ambush",
+  "combatants": [
+    {
+      "name": "Legolas",
+      "max_hp": 35,
+      "current_hp": 35,
+      "initiative": 20,
+      "notes": [],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Thorin",
+      "max_hp": 45,
+      "current_hp": 33,
+      "initiative": 18,
+      "notes": [
+        "Blessed by cleric (+1 AC)",
+        "Has inspiration"
+      ],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Goblin 1",
+      "max_hp": 7,
+      "current_hp": 0,
+      "initiative": 15,
+      "notes": [],
+      "combatant_type": "monster",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Goblin 2",
+      "max_hp": 7,
+      "current_hp": 7,
+      "initiative": 13,
+      "notes": [
+        "Hiding behind tree"
+      ],
+      "combatant_type": "monster",
+      "tie_breaker": 0.0
+    },
+    {
+      "name": "Gimli",
+      "max_hp": 50,
+      "current_hp": 50,
+      "initiative": 12,
+      "notes": [],
+      "combatant_type": "player",
+      "tie_breaker": 0.0
+    }
+  ],
+  "current_turn": 4,
+  "round_number": 1,
+  "metadata": {
+    "created": "2025-07-01T08:06:45.162433",
+    "last_modified": "2025-07-01T08:06:45.162445",
+    "version": "1.0"
+  }
+}

@@ -19,8 +19,8 @@ A command-line tool for managing combat encounters in tabletop D&D sessions. Tra
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-cd dnd-encounter-tracker
+git clone https://github.com/aikithoughts/encounter-tracker-cli.git
+cd encounter-tracker-cli
 
 # Install dependencies (if any)
 pip install -r requirements.txt
@@ -308,7 +308,7 @@ cleanup --max-backups 3         # Clean old backups
 
 **HP calculation errors**:
 - Use proper format: number, +number, or -number
-- Check current HP with `combatant <name>`
+- Check current HP with `combatant <n>`
 - Remember HP cannot go below 0 or above maximum
 
 ### Getting Help

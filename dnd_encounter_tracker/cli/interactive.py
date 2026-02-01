@@ -148,11 +148,13 @@ class InteractiveSession:
             parsed_args = self._parse_interactive_command(args)
             if parsed_args:
                 # Track if this command might modify data
-                modifying_commands = ['new', 'add', 'remove', 'hp', 'init', 'note']
+                modifying_commands = ['new', 'add', 'remove', 'hp', 'init', 'note', 'next']
                 if args[0] in modifying_commands:
                     self.unsaved_changes = True
                 elif args[0] == 'save':
                     self.unsaved_changes = False
+                elif args[0] == 'load':
+                    self.unsaved_changes = False  # Fresh load has no unsaved changes
                 
                 # Execute the command
                 result = self.command_handler.execute_command(parsed_args)
